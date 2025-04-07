@@ -53,11 +53,17 @@
 
 
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
 
-    <audio controls autoplay loop>
-        <source src="/die.mp3" type="audio/mpeg">
-      </audio>
-
+    <script>
+      const sound = new Howl({
+        src: ['https://miss2123.github.io/portfolio./die.mp3'],
+        autoplay: true,
+        loop: true,
+        volume: 1.0,
+        onplay: () => console.log('เล่นเพลงแล้ว!')
+      });
+    </script>
 
 
 </body>
