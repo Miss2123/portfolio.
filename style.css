@@ -2,7 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'Times New Roman', Times, serif;
+font-family: "Winky Sans", sans-serif;
 
 
 
@@ -10,7 +10,6 @@ font-family: 'Times New Roman', Times, serif;
 
 body {
     background-color: #000000ea;
-   
 
 }
 .headre{
@@ -163,8 +162,43 @@ padding: 1px 8% 0;
 .img{
     display: flex;
 }
+ .text h1{
+    color: #f0f0f0;
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 0 0 10px;
+}
+.con{
+    padding: 30px 8%;
+}
+.text{
+padding-right: 40px;
+
+}
+
+.img-a{
+    text-align: center;
+    margin-top: 10px;
+    padding-right:40px;
+
+}
+
+.name{
+   color: #ffffff;
+   text-shadow: 0 0 10px;
+}
+.aboutMe{
+    text-align: center;
+    font-size: 29px;
+    color: #ffffff;
+    margin-top: 2rem
+}
 
 
-
+.namemee{
+    color: #fa0606 !important;
+    text-shadow:0 0 10px;
+}
 
 
