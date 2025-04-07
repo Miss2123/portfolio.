@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  
+  
+  
+  }
+  
+  body {
+      background-color: #000000;
+     
+  
+  }
+  .headre{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  padding: 30px 8%;
+  background:transparent;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  display: flex;
+  }
+  
+  .logo{
+   font-size: 25px;
+   color: #ffffff;
+   text-decoration: none;
+   font-weight: 600;
+  
+  }
+  
+  .navbar a {
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 500;
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+     color: #ff0000;
+  
+  }
+  
+  
+  .social-media{
+      display: flex;
+      width: 150px;
+      justify-content: space-between;
+      height: 40px;
+      
+  }
+  .social-media a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid transparent;
+  text-decoration: none;
+  transform: rotate(45deg);
+  transition:ss;
+  }
+  
+  .social-media a:hover{
+  
+    border-color: rgb(255, 0, 0);
+  
+  }
+  
+  .social-media  a i{
+      font-size: 24px;
+      color:rgb(245, 245, 245);
+      transform: rotate(-45deg);
+  
+  }
+  
+  .home{
+      position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 8% 0;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  .home-content{
+  max-width: 630px;
+ text-align: center;
+
+  }
+  
+  .home-content h1{
+      font-size: 50px;
+      line-height: 1.2;
+      color: rgb(255, 255, 255);
+      
+  }
+  
+  .home-content h3 {
+      font-size: 40px;
+   color: #ffffff;
+  }
+  
+  .home-content p{
+      font: size 16px;
+      margin: 15px 0 3px;
+  }
+  
+  .btn{
+  display: inline-block;
+  padding: 10px 28px;
+  border: 2px solid #202227;
+  background-color: #0e0e0f;
+  border-radius: 6px;
+  box-shadow: 0  0 10px rgb(0, 0, 0);
+  font-size: 16px; 
+  color:#ffffff;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  transition:s;
+  }
+  
+  .btn:hover{
+  background: transparent;
+      color: #f1e2e2;
+  }
+  
+  .home-img{
+  
+      position: relative;
+      width: 450px;
+      height: 450px;
+      /* transform: rotate(deg); */
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 8% 0;
+  }
+  
+  .home-img .rhombus{
+    position:absolute;
+    width: 70%;
+    height: 70%;
+    border: 5px solid #f5f7fc;
+    background-image: url("https://www.akerufeed.com/wp-content/uploads/2019/09/1-52.jpg")
+  
+  
+  }
+
+  .img{
+    display: flex;
+  }
+  
+  
+  
+  
+  
+  
